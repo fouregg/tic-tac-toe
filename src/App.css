@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.square {
+  background: #fff; /* цвет бэка */
+  border: 1px solid #999; /* Рамка */
+  float: left; /* Привязка к расположению */
+  font-size: 24px; /* Размер шрифта */
+  font-weight: bold; /* Тип шрифта */
+  line-height: 34px; /* Высота линии */
+  height: 34px; /* Общая высота элемента */
+  margin-right: -1px; /* Смещение элемента на 1 пиксел влево */
+  margin-top: -1px; /* Смещение элемента на 1 пиксель наверх */
+  padding: 0; /* Обнуление отступов */
+  text-align: center; /* Выставление текста по центру */
+  width: 34px; /* Установка ширины */
+}
+
+.row{
+  display: flex;
+}
+
+.status{
+  float: left;
+  font-family: monospace;
+}
